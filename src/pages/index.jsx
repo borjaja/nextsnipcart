@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import Plp from "../components/Plp";
+import Plp from "./Plp";
 import Footer from "../components/Footer";
 import Head from "next/head";
 import styles from "./index.module.css";
@@ -25,6 +25,7 @@ const Index = (props) => {
         </div>
     );
 };
+/*
 Index.getInitialProps = async ({req}) => {
     return {
         products: [
@@ -45,5 +46,5 @@ Index.getInitialProps = async ({req}) => {
             //{...}
         ],
     };
-};
+};*/
 export default Index;
