@@ -68,9 +68,9 @@ export async function getStaticProps({params}) {
         image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
     };
     if (params.index === 1) {
-        return {props: {product1}};
+        return {props: {product: product1}};
     } else {
-        return {props: {product2}};
+        return {props: {product: product2}};
     }
     //return {props: {(params.index === 1) ? product1 : product2};
     //return {props: {product}};
