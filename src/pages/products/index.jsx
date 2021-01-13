@@ -2,18 +2,14 @@
 //import Layout from "../../components/Layout/Layout";
 //import styles from "./products.module.scss";
 //<Card product={product} key={index} />
-const Plp = ({products}) => {
+const Plp = () => {
     return (
         <div>
-            <div className={styles.product_list}>
-                {products.map((product, index) => (
-                    <div>sss</div>
-                ))}
-            </div>
+            <div className={styles.product_list}>s</div>
         </div>
     );
 };
-
+/*
 export async function getStaticProps(context) {
     //const res = await fetch("https://fakestoreapi.com/products?5");
     //const products = await res.json();
@@ -36,6 +32,6 @@ export async function getStaticProps(context) {
         },
     ];
     return {props: {products}};
-}
+}*/
 
 export default Plp;
