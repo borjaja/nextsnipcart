@@ -79,5 +79,5 @@ export async function getStaticProps({params}) {
 
 export default withRouter(Pdp);
 */
-
-export default PDP = () => <div></div>;
+const Pdp = ({product}) => <div></div>;
+export default Pdp;
