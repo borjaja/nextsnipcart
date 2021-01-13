@@ -13,7 +13,7 @@ const Plp = () => {
 export async function getStaticProps(context) {
     //const res = await fetch("https://fakestoreapi.com/products?5");
     //const products = await res.json();
-    const products = [
+    /*const products = [
         {
             id: 1,
             title: "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -30,8 +30,8 @@ export async function getStaticProps(context) {
             category: "men clothing",
             image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
         },
-    ];
-    return {props: {products}};
+    ];*/
+    return {props: {products: 1}};
 }
 
 export default Plp;
