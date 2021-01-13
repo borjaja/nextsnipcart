@@ -3,7 +3,6 @@ import Layout from "../../components/Layout/Layout";
 import styles from "./products.module.scss";
 
 const Plp = ({products}) => {
-    console.log(products);
     return (
         <Layout>
             <div className={styles.product_list}>
