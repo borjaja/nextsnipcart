@@ -1,4 +1,5 @@
-import {withRouter, RouterProps} from "next/router";
+/*
+import {withRouter} from "next/router";
 import Layout from "../../components/Layout/Layout";
 const Pdp = ({product}) => {
     return (
@@ -77,3 +78,4 @@ export async function getStaticProps({params}) {
 }
 
 export default withRouter(Pdp);
+*/
