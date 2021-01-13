@@ -1,3 +1,4 @@
+/*
 import Card from "../../components/Card/Card";
 import Layout from "../../components/Layout/Layout";
 import styles from "./products.module.scss";
@@ -37,5 +38,6 @@ export async function getStaticProps(context) {
     ];
     return {props: {products}};
 }
-
+*/
+const Plp = ({product}) => <div></div>;
 export default Plp;
