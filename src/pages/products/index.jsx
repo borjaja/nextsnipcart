@@ -1,6 +1,6 @@
 //import Card from "../../components/Card/Card";
 //import Layout from "../../components/Layout/Layout";
-//import styles from "./products.module.scss";
+import styles from "./products.module.scss";
 //<Card product={product} key={index} />
 const Plp = () => {
     return (
