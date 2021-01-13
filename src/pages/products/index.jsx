@@ -15,7 +15,7 @@ const Plp = ({products}) => {
 };
 
 export async function getStaticProps(context) {
-    const res = await fetch("https://fakestoreapi.com/products");
+    const res = await fetch("https://fakestoreapi.com/products?5");
     const products = await res.json();
     return {props: {products}};
 }

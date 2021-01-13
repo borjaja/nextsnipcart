@@ -19,7 +19,7 @@ const Pdp = ({product}) => {
 };
 
 export async function getStaticPaths() {
-    const res = await fetch("https://fakestoreapi.com/products");
+    const res = await fetch("https://fakestoreapi.com/products?limit=5");
     const products = await res.json();
     let paths = products.map((p) => {
         return `/product/${p.id}`;
