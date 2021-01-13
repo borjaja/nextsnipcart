@@ -1,16 +1,16 @@
-import Card from "../../components/Card/Card";
-import Layout from "../../components/Layout/Layout";
-import styles from "./products.module.scss";
-
+//import Card from "../../components/Card/Card";
+//import Layout from "../../components/Layout/Layout";
+//import styles from "./products.module.scss";
+//<Card product={product} key={index} />
 const Plp = ({products}) => {
     return (
-        <Layout>
+        <div>
             <div className={styles.product_list}>
                 {products.map((product, index) => (
-                    <Card product={product} key={index} />
+                    <div>sss</div>
                 ))}
             </div>
-        </Layout>
+        </div>
     );
 };
 
