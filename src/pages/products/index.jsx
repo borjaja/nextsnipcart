@@ -9,7 +9,7 @@ const Plp = () => {
         </div>
     );
 };
-/*
+
 export async function getStaticProps(context) {
     //const res = await fetch("https://fakestoreapi.com/products?5");
     //const products = await res.json();
@@ -32,6 +32,6 @@ export async function getStaticProps(context) {
         },
     ];
     return {props: {products}};
-}*/
+}
 
 export default Plp;
